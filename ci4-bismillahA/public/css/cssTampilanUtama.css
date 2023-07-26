@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.copy-container h1 {
+    font-size: 55px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0px 10px 0px;
+}
+
+.copy-container p {
+    font-size: 20px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+  
+.main {
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("https://static.republika.co.id/uploads/images/inpicture_slide/lowongan-pekerjaan_200903125950-715.jpg") ;
+    background-color: #C1FFE9;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    padding: 55px 80px 1800px 0px;
+}
+
+form {
+	margin:50px auto;
+}
+
+
+.search {
+    padding: 0px 10px 0px 12px;
+	height: 59px;
+    width: 550px;
+	background: #ffffff;
+	border:1px solid #dbdbdb;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button {
+	position:relative;
+	padding:20px 60px;
+	left:-7px;
+    border-radius: 0px 10px 10px 0px;
+	border:2px solid #53bd84;
+	background-color:#53bd84;
+	color:#fafafa;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.button:hover  {
+	background-color:#fafafa;
+	color:#207cca;
+}
+				  
+::-webkit-input-placeholder { /* For WebKit browsers */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}	
+   
+input{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+} 
+
+.below-content h3{
+    font-size: 40px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #00925E;
+    text-decoration: underline
+}

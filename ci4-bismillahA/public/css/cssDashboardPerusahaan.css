@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+    height: 150px;
+}
+
+.txtLow h1{
+    font-family: "Aurora Script";
+    text-align: center;
+    color: #53bd84;
+}
+
+.copy-container h1 {
+    font-size: 55px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #8FD0B9;
+    margin: 20px 0px 10px 0px;
+}
+
+  
+.main {
+    background-color: #C1FFE9;
+    padding: 55px 80px 1800px 0px;
+}
+
+form {
+	margin:20px auto 80px auto;
+}
+
+
+.search {
+    padding: 0px 10px 0px 12px;
+	height: 62px;
+    width: 850px;
+	background: #fff;
+	border:1px solid #dbdbdb;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+}
+
+.button {
+	position:relative;
+	padding:16px 70px;
+	left:-7px;
+    border-radius: 0px 10px 10px 0px;
+	border:2px solid #53bd84;
+	background-color:#53bd84;
+	color:#fafafa;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button:hover  {
+	background-color:#fafafa;
+	color:#207cca;
+}
+				  
+::-webkit-input-placeholder { /* For WebKit browsers */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+	color:    #928B88;
+	font-family:Helvetica Neue;
+	font-weight:bold;
+}	
+   
+input{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+} 
+
+.below-content h3{
+    font-size: 40px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #00925E;
+    text-decoration: underline
+}
+
+.content-area{
+    text-align: center;
+}
+
+.text-center{
+    font-size: 15px;
+}
+
+.container h1 {
+    margin: 50px 0px;
+}
+
+.dashboard-menu-header{
+    padding : 4%; 
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+    border: 1px solid #000000;;
+    background-color: #D5FCEE;
+}
+
+.membership-avatar-wrap p {
+    color: #8FD0B9; 
+    font-weight: bold;
+}
+
+.list-item{
+    border: 1px solid #E7DEDE;
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    background-color: #8FD0B9;
+}
+
+.profil:link, .profil:visited {
+    background-color: #8FD0B9;
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 105.6px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.profil2:link, .profil2:visited {
+    background-color: #8FD0B9;
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 78.6px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.dashboard:link, .dashboard:visited {
+    background-color: #8FD0B9;
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 101.4px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+  
+.list-item a:hover, .list-item a:active {
+    background-color: #000;
+}
+

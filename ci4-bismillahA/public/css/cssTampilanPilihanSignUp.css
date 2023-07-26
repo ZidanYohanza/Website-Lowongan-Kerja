@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+td{
+    padding: 50px 70px;
+
+}
+
+a:link, a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.btn a:link, .btn a:visited {
+    font-weight: bold;
+    color: #ffff;
+    padding-top: 5px;
+    margin: 15px 20px;
+    background-color: #7BC9AD;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 19px;
+    height: 30px;
+    width: 180px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+h4{
+    font-size: 21px;
+}
+
+tr{
+    padding: 0px 100px;
+}
+
+.btn a:hover, .btn a:active {
+    background-color: #7AB9A3;
+}
+
+.copy-container h1 {
+    font-size: 55px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0px 10px 0px;
+}
+
+.copy-container p {
+    font-size: 20px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+  
+.main {
+    background-color: #C1FFE9;
+    background-size: 100% 500px;
+    padding: 55px 80px 170px 0px;
+}
+
+form {
+	margin:50px auto;
+}
+
+   
+.below-content h3{
+    font-size: 40px;
+    padding: 0px 40px 4px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #00925E;
+    text-decoration: underline
+}
